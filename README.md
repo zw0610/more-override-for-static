@@ -13,12 +13,12 @@ With the `Duck` class only overrides `foo` methods, the overridden `foo` methods
 
 Thins are quite different for CPP and Go.
 
-## C++ Result
+## C++ Result (Also Expected)
 
 ```shell
 foo from animal
 Pruttel
-foo from animal
+foo from duck
 Pruttel
 ```
 

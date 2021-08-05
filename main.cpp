@@ -22,7 +22,7 @@ public:
 class Duck: public Animal {
 public:
     void foo() {
-        std::cout << "foo from animal" << std::endl;
+        std::cout << "foo from duck" << std::endl;
     }
 };
 
@@ -31,11 +31,8 @@ int main() {
     Animal a{};
     Duck d{};
 
-    Sounder & ref_a = a;
-    Sounder & ref_d = d;
-
-    ref_a.sound();
-    ref_d.sound();
+    a.sound();
+    d.sound();
 
     return 0;
 }
